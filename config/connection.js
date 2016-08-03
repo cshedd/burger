@@ -1,13 +1,14 @@
 var mysql = require('mysql');
 
-// var connection = mysql.createConnection({
+var connection = mysql.createConnection({
 
-// 		port: 3306,
-// 		host: 'l9dwvv6j64hlhpul.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-// 		user: 'cm0zdmk2ez4igof5',
-// 		password: 'yuhl98jsef0k7ul4',
-// 		database: 'lghowl35ljxl5vao'
-// });
+		port: 3306,
+		host: 'l9dwvv6j64hlhpul.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+		user: 'cm0zdmk2ez4igof5',
+		password: 'yuhl98jsef0k7ul4',
+		database: 'lghowl35ljxl5vao'
+
+});
 
 var connection = mysql.createConnection({
 
@@ -16,6 +17,7 @@ var connection = mysql.createConnection({
 	user: 'root',
 	password: 'gayle92',
 	database: 'burgers_db'
+
 });
 
 connection.connect(function(err) {
