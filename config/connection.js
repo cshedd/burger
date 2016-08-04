@@ -10,15 +10,15 @@ var connection = mysql.createConnection({
 
 });
 
-var connection = mysql.createConnection({
+// var connection = mysql.createConnection({
 
-	port: 3306,
-	host: 'localhost',
-	user: 'root',
-	password: 'gayle92',
-	database: 'burgers_db'
+// 	port: 3306,
+// 	host: 'localhost',
+// 	user: 'root',
+// 	password: 'gayle92',
+// 	database: 'burgers_db'
 
-});
+// });
 
 connection.connect(function(err) {
     if (err) {
